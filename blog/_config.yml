@@ -69,5 +69,6 @@ theme: hexo-theme-next-master
 ## Docs: https://hexo.io/docs/deployment.html
 deploy: 
   type: git
-  repo: git@github.com:yaotiancheng123456/yaotiancheng123456.github.io
+  # repo: git@github.com:yaotiancheng123456/yaotiancheng123456.github.io
+  repo: git@github.com:doater/doater.github.io
   branch: master 
