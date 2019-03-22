@@ -6,15 +6,15 @@
 
 
 <html class="theme-next muse use-motion" lang="zh-Hans">
-<head>
-  <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 
 
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
 
 
 
@@ -29,7 +29,7 @@
 
   
   
-  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
 
 
 
@@ -75,49 +75,39 @@
 
 
 
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
 
-<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
-
-
-  <meta name="keywords" content="gulp," />
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css">
 
 
+  <meta name="keywords" content="gulp,">
 
 
 
 
 
 
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0" />
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0">
 
 
 
 
 
 
-<meta name="description" content="如果项目太大,需要拆分任务，可能会导致gulpfile.js体积过大,难以维护。为了解决这个问题，应将任务拆分到不同的文件中，即解耦。
-
-安装gulp4.0利用gulp.series控制串行任务利用gulp.parallel控制并行任务更好的利用node高并发的特点，更快的，明确的，进行构建
-
-12npm install gulpjs/gulp#4.0 -gnpm install gulpjs/g">
+<meta name="description" content="如果项目太大,需要拆分任务，可能会导致gulpfile.js体积过大,难以维护。为了解决这个问题，应将任务拆分到不同的文件中，即解耦。  安装gulp4.0利用gulp.series控制串行任务利用gulp.parallel控制并行任务更好的利用node高并发的特点，更快的，明确的，进行构建  12npm install gulpjs/gulp#4.0 -gnpm install gulpjs/g">
+<meta name="keywords" content="gulp">
 <meta property="og:type" content="article">
 <meta property="og:title" content="gulp打包之解耦任务">
 <meta property="og:url" content="http://yaotiancheng123456.github.io/2017/01/13/gulp/index.html">
 <meta property="og:site_name" content="Mryao博客">
-<meta property="og:description" content="如果项目太大,需要拆分任务，可能会导致gulpfile.js体积过大,难以维护。为了解决这个问题，应将任务拆分到不同的文件中，即解耦。
-
-安装gulp4.0利用gulp.series控制串行任务利用gulp.parallel控制并行任务更好的利用node高并发的特点，更快的，明确的，进行构建
-
-12npm install gulpjs/gulp#4.0 -gnpm install gulpjs/g">
-<meta property="og:updated_time" content="2017-01-13T09:04:06.493Z">
+<meta property="og:description" content="如果项目太大,需要拆分任务，可能会导致gulpfile.js体积过大,难以维护。为了解决这个问题，应将任务拆分到不同的文件中，即解耦。  安装gulp4.0利用gulp.series控制串行任务利用gulp.parallel控制并行任务更好的利用node高并发的特点，更快的，明确的，进行构建  12npm install gulpjs/gulp#4.0 -gnpm install gulpjs/g">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2019-03-22T09:31:05.921Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="gulp打包之解耦任务">
-<meta name="twitter:description" content="如果项目太大,需要拆分任务，可能会导致gulpfile.js体积过大,难以维护。为了解决这个问题，应将任务拆分到不同的文件中，即解耦。
-
-安装gulp4.0利用gulp.series控制串行任务利用gulp.parallel控制并行任务更好的利用node高并发的特点，更快的，明确的，进行构建
-
-12npm install gulpjs/gulp#4.0 -gnpm install gulpjs/g">
+<meta name="twitter:description" content="如果项目太大,需要拆分任务，可能会导致gulpfile.js体积过大,难以维护。为了解决这个问题，应将任务拆分到不同的文件中，即解耦。  安装gulp4.0利用gulp.series控制串行任务利用gulp.parallel控制并行任务更好的利用node高并发的特点，更快的，明确的，进行构建  12npm install gulpjs/gulp#4.0 -gnpm install gulpjs/g">
 
 
 
@@ -145,7 +135,7 @@
 
 
 
-  <link rel="canonical" href="http://yaotiancheng123456.github.io/2017/01/13/gulp/"/>
+  <link rel="canonical" href="http://yaotiancheng123456.github.io/2017/01/13/gulp/">
 
 
 
@@ -180,7 +170,7 @@
   
 
   <div class="custom-logo-site-title">
-    <a href="/"  class="brand" rel="start">
+    <a href="/" class="brand" rel="start">
       <span class="logo-line-before"><i></i></span>
       <span class="site-title">Mryao博客</span>
       <span class="logo-line-after"><i></i></span>
@@ -209,7 +199,7 @@
         <li class="menu-item menu-item-home">
           <a href="/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
             
             首页
           </a>
@@ -219,7 +209,7 @@
         <li class="menu-item menu-item-categories">
           <a href="/categories" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
             
             分类
           </a>
@@ -229,7 +219,7 @@
         <li class="menu-item menu-item-about">
           <a href="/about" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
             
             关于
           </a>
@@ -239,7 +229,7 @@
         <li class="menu-item menu-item-archives">
           <a href="/archives" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
             
             归档
           </a>
@@ -249,7 +239,7 @@
         <li class="menu-item menu-item-tags">
           <a href="/tags" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
             
             标签
           </a>
@@ -288,14 +278,14 @@
 
   <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="name" content="TianCheng Yao">
-    <meta itemprop="description" content="">
+    <meta itemprop="description" content>
     <meta itemprop="image" content="/images/avatar.jpg">
   </span>
 
   <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
     <meta itemprop="name" content="Mryao博客">
     <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="Mryao博客" src="">
+      <img style="display:none;" itemprop="url image" alt="Mryao博客" src>
     </span>
   </span>
 
@@ -334,7 +324,7 @@
           </span>
 
           
-            <span class="post-category" >
+            <span class="post-category">
             
               <span class="post-meta-divider">|</span>
             
@@ -484,7 +474,7 @@
 
       
         <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
             文章目录
           </li>
           <li class="sidebar-nav-overview" data-target="site-overview">
@@ -495,9 +485,7 @@
 
       <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <img class="site-author-image" itemprop="image"
-               src="/images/avatar.jpg"
-               alt="TianCheng Yao" />
+          <img class="site-author-image" itemprop="image" src="/images/avatar.jpg" alt="TianCheng Yao">
           <p class="site-author-name" itemprop="name">TianCheng Yao</p>
           <p class="site-description motion-element" itemprop="description">技术收集</p>
         </div>
@@ -506,7 +494,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">4</span>
+                <span class="site-state-item-count">6</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -515,7 +503,7 @@
           
             <div class="site-state-item site-state-categories">
               <a href="/categories">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">分类</span>
               </a>
             </div>
@@ -524,7 +512,7 @@
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">4</span>
+                <span class="site-state-item-count">6</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -597,10 +585,10 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright" >
+        <div class="copyright">
   
   &copy; 
-  <span itemprop="copyrightYear">2017</span>
+  <span itemprop="copyrightYear">2019</span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
